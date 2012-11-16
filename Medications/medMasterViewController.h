@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class medObjectDataController;
 @interface medMasterViewController : UITableViewController
-
+@property (strong, nonatomic)medObjectDataController *dataController;
 @end

@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface medDetailViewController : UIViewController
-
-@property (strong, nonatomic) id detailItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@class medObject;
+@interface medDetailViewController : UITableViewController
+@property (strong,nonatomic) medObject *medObjectDetails;
+@property (weak, nonatomic) IBOutlet UILabel *drugNameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *startDateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *endDateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *intervalLabel;
+@property (weak, nonatomic) IBOutlet UILabel *frequencyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
 @end

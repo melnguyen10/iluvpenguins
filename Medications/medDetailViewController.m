@@ -7,7 +7,7 @@
 //
 
 #import "medDetailViewController.h"
-
+#import "medObject.h"
 @interface medDetailViewController ()
 - (void)configureView;
 @end
@@ -16,10 +16,10 @@
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void)setDetailItem:(medObject *)newMedObject
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+    if (_medObjectDetails != newMedObject) {
+        _medObjectDetails = newMedObject;
         
         // Update the view.
         [self configureView];
@@ -29,13 +29,24 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+    medObject *theMedObjectDetails = self.medObjectDetails;
+    static NSDateFormatter *formatter = nil;
+    if (formatter ==nil){
+        formatter = [[NSDateFormatter alloc]init];
+        [formatter setDateStyle:NSDateFormatterMediumStyle];
+    }
+    if (theMedObjectDetails){
+        self.drugNameLabel.text = theMedObjectDetails.name;
+        self.startDateLabel.text = [formatter stringFromDate:(NSDate *)theMedObjectDetails.startDate];
+        self.endDateLabel.text = [formatter stringFromDate:(NSDate *)theMedObjectDetails.endDate];
+        self.timeLabel.text = theMedObjectDetails.time;
+        self.intervalLabel.text = theMedObjectDetails.interval;
+        self.frequencyLabel.text = theMedObjectDetails.frequency;
+        self.descriptionLabel.text = theMedObjectDetails.description;
     }
 }
 
-- (void)viewDidLoad
+-(void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
