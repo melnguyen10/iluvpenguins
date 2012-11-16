@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22E0960E1655F154007A7436 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E0960D1655F154007A7436 /* UIKit.framework */; };
+		22E096101655F154007A7436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E0960F1655F154007A7436 /* Foundation.framework */; };
+		22E096121655F154007A7436 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E096111655F154007A7436 /* CoreGraphics.framework */; };
+		22E096181655F154007A7436 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E096161655F154007A7436 /* InfoPlist.strings */; };
+		22E0961A1655F154007A7436 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E096191655F154007A7436 /* main.m */; };
+		22E0961E1655F154007A7436 /* medAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E0961D1655F154007A7436 /* medAppDelegate.m */; };
+		22E096201655F154007A7436 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E0961F1655F154007A7436 /* Default.png */; };
+		22E096221655F154007A7436 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E096211655F154007A7436 /* Default@2x.png */; };
+		22E096241655F154007A7436 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E096231655F154007A7436 /* Default-568h@2x.png */; };
+		22E096271655F154007A7436 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E096251655F154007A7436 /* MainStoryboard.storyboard */; };
+		22E0962A1655F154007A7436 /* medMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E096291655F154007A7436 /* medMasterViewController.m */; };
+		22E0962D1655F154007A7436 /* medDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E0962C1655F154007A7436 /* medDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22E096091655F154007A7436 /* Medications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E0960D1655F154007A7436 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22E0960F1655F154007A7436 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22E096111655F154007A7436 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22E096151655F154007A7436 /* Medications-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Medications-Info.plist"; sourceTree = "<group>"; };
+		22E096171655F154007A7436 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22E096191655F154007A7436 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22E0961B1655F154007A7436 /* Medications-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Medications-Prefix.pch"; sourceTree = "<group>"; };
+		22E0961C1655F154007A7436 /* medAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = medAppDelegate.h; sourceTree = "<group>"; };
+		22E0961D1655F154007A7436 /* medAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = medAppDelegate.m; sourceTree = "<group>"; };
+		22E0961F1655F154007A7436 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22E096211655F154007A7436 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22E096231655F154007A7436 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22E096261655F154007A7436 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22E096281655F154007A7436 /* medMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = medMasterViewController.h; sourceTree = "<group>"; };
+		22E096291655F154007A7436 /* medMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = medMasterViewController.m; sourceTree = "<group>"; };
+		22E0962B1655F154007A7436 /* medDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = medDetailViewController.h; sourceTree = "<group>"; };
+		22E0962C1655F154007A7436 /* medDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = medDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E096061655F154007A7436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E0960E1655F154007A7436 /* UIKit.framework in Frameworks */,
+				22E096101655F154007A7436 /* Foundation.framework in Frameworks */,
+				22E096121655F154007A7436 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E095FE1655F154007A7436 = {
+			isa = PBXGroup;
+			children = (
+				22E096131655F154007A7436 /* Medications */,
+				22E0960C1655F154007A7436 /* Frameworks */,
+				22E0960A1655F154007A7436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E0960A1655F154007A7436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E096091655F154007A7436 /* Medications.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E0960C1655F154007A7436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22E0960D1655F154007A7436 /* UIKit.framework */,
+				22E0960F1655F154007A7436 /* Foundation.framework */,
+				22E096111655F154007A7436 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22E096131655F154007A7436 /* Medications */ = {
+			isa = PBXGroup;
+			children = (
+				22E0961C1655F154007A7436 /* medAppDelegate.h */,
+				22E0961D1655F154007A7436 /* medAppDelegate.m */,
+				22E096251655F154007A7436 /* MainStoryboard.storyboard */,
+				22E096281655F154007A7436 /* medMasterViewController.h */,
+				22E096291655F154007A7436 /* medMasterViewController.m */,
+				22E0962B1655F154007A7436 /* medDetailViewController.h */,
+				22E0962C1655F154007A7436 /* medDetailViewController.m */,
+				22E096141655F154007A7436 /* Supporting Files */,
+			);
+			path = Medications;
+			sourceTree = "<group>";
+		};
+		22E096141655F154007A7436 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22E096151655F154007A7436 /* Medications-Info.plist */,
+				22E096161655F154007A7436 /* InfoPlist.strings */,
+				22E096191655F154007A7436 /* main.m */,
+				22E0961B1655F154007A7436 /* Medications-Prefix.pch */,
+				22E0961F1655F154007A7436 /* Default.png */,
+				22E096211655F154007A7436 /* Default@2x.png */,
+				22E096231655F154007A7436 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E096081655F154007A7436 /* Medications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E096301655F154007A7436 /* Build configuration list for PBXNativeTarget "Medications" */;
+			buildPhases = (
+				22E096051655F154007A7436 /* Sources */,
+				22E096061655F154007A7436 /* Frameworks */,
+				22E096071655F154007A7436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medications;
+			productName = Medications;
+			productReference = 22E096091655F154007A7436 /* Medications.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E096001655F154007A7436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = med;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Tim;
+			};
+			buildConfigurationList = 22E096031655F154007A7436 /* Build configuration list for PBXProject "Medications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22E095FE1655F154007A7436;
+			productRefGroup = 22E0960A1655F154007A7436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E096081655F154007A7436 /* Medications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E096071655F154007A7436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E096181655F154007A7436 /* InfoPlist.strings in Resources */,
+				22E096201655F154007A7436 /* Default.png in Resources */,
+				22E096221655F154007A7436 /* Default@2x.png in Resources */,
+				22E096241655F154007A7436 /* Default-568h@2x.png in Resources */,
+				22E096271655F154007A7436 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E096051655F154007A7436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E0961A1655F154007A7436 /* main.m in Sources */,
+				22E0961E1655F154007A7436 /* medAppDelegate.m in Sources */,
+				22E0962A1655F154007A7436 /* medMasterViewController.m in Sources */,
+				22E0962D1655F154007A7436 /* medDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22E096161655F154007A7436 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E096171655F154007A7436 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22E096251655F154007A7436 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E096261655F154007A7436 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E0962E1655F154007A7436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22E0962F1655F154007A7436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E096311655F154007A7436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Medications/Medications-Prefix.pch";
+				INFOPLIST_FILE = "Medications/Medications-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22E096321655F154007A7436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Medications/Medications-Prefix.pch";
+				INFOPLIST_FILE = "Medications/Medications-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E096031655F154007A7436 /* Build configuration list for PBXProject "Medications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E0962E1655F154007A7436 /* Debug */,
+				22E0962F1655F154007A7436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E096301655F154007A7436 /* Build configuration list for PBXNativeTarget "Medications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E096311655F154007A7436 /* Debug */,
+				22E096321655F154007A7436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22E096001655F154007A7436 /* Project object */;
+}
